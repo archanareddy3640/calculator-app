@@ -1,0 +1,77 @@
+body {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.calculator {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+#display {
+  background: #0f172a;
+  color: #38bdf8;
+  box-shadow: inset 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #38bdf8;
+  transform: scale(1.05);
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+/* Operator buttons */
+.operator {
+  background: #38bdf8;
+  color: black;
+}
+
+.operator:hover {
+  background: #0ea5e9;
+}
+
+/* Click animation */
+button:active {
+  transform: scale(0.95);
+}
+
+/* Display improvement */
+#display {
+  background: #0f172a;
+  color: #38bdf8;
+}
+
+.special {
+  background: #ef4444;
+  color: white;
+}
+
+.special:hover {
+  background: #dc2626;
+}
