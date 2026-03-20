@@ -37,7 +37,7 @@ calculator-app/
 ---
 
 ## 🔗 Live Demo
-Coming soon...
+https://archanareddy3640.github.io/calculator-app/
 
 ---
 
